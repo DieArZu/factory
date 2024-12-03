@@ -1,0 +1,10 @@
+    <web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>UserPageServlet</servlet-name>
+        <servlet-class>UserPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserPageServlet</servlet-name>
+        <url-pattern>/userPage</url-pattern>
+    </servlet-mapping>
+</web-app>
